@@ -1,0 +1,36 @@
+mat-toolbar {
+  display: flex;
+  justify-content: space-between;
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      h1 {
+        height: fit-content;
+      }
+    }
+  }
+}
+#toolbar-menu {
+  display: flex;
+  button {
+    cursor: pointer;
+  }
+}
+#main-menu {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  #main-menu {
+    display: block;
+  }
+  #toolbar-menu {
+    display: none;
+  }
+}

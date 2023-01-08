@@ -1,0 +1,12 @@
+.welcome-container {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .welcome-container {
+    flex-direction: column;
+  }
+}
