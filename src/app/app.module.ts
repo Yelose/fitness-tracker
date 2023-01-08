@@ -9,6 +9,7 @@ import { MaterialModule } from './modules/material/material.module';
 import { MAT_DIALOG_DEFAULT_OPTIONS } from '@angular/material/dialog';
 
 import { AuthService } from './auth/auth.service';
+import { TrainingService } from './training/training.service';
 
 import { SignupComponent } from './auth/signup/signup.component';
 import { LoginComponent } from './auth/login/login.component';
@@ -46,6 +47,7 @@ import { StopTrainingComponent } from './training/current-training/stop-training
   providers: [
     { provide: MAT_DIALOG_DEFAULT_OPTIONS, useValue: { hasBackdrop: false } },
     { provide: AuthService },
+    { provide: TrainingService },
   ],
   bootstrap: [AppComponent],
 })
