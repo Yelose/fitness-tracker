@@ -1,9 +1,5 @@
 import { Component } from '@angular/core';
-import {
-  MatDialog,
-  MAT_DIALOG_DATA,
-  MatDialogRef,
-} from '@angular/material/dialog';
+import { MatDialog } from '@angular/material/dialog';
 import { TrainingService } from '../training.service';
 import { StopTrainingComponent } from './stop-training/stop-training.component';
 
